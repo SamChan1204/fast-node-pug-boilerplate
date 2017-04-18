@@ -1,0 +1,42 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "dependencies": {
+    "config": "1.20.1",
+    "koa": "2.1.0",
+    "koa-better-body": "3.0.2",
+    "koa-convert": "1.2.0",
+    "koa-logs-full": "0.0.8",
+    "koa-middlewares": "6.0.0",
+    "koa-router": "^7.0.1",
+    "koa-validate": "1.0.7",
+    "lodash": "*",
+    "moment": "*",
+    "pug": "2.0.0-beta11",
+    "redis": "2.6.2",
+    "superagent": "*"
+  },
+  "scripts": {
+    "start": "supervisor --harmony --ignore public,node_modules app.js"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-es2016": "*",
+    "babel-preset-es2017": "*",
+    "autoprefixer": "*",
+    "eslint": "*",
+    "eslint-loader": "*",
+    "eslint-plugin-import": "*",
+    "gulp": "*",
+    "gulp-babel": "*",
+    "gulp-concat-css": "*",
+    "gulp-less": "*",
+    "gulp-clean-css": "*",
+    "gulp-uglify": "*",
+    "gulp-image": "*",
+    "gulp-util": "*",
+    "less-plugin-autoprefix": "*"
+  }
+}

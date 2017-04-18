@@ -1,0 +1,11 @@
+*.log
+.idea
+coverage
+.sonar
+node_modules/
+logs/
+public/dist
+sonar-project.properties
+.vscode/
+config/
+uploads/
